@@ -110,6 +110,44 @@
     
   }
   
+  #fvnma:after{
+    
+    content: "FVNMA";
+    transition: all 0.3s;
+    color: blue;
+    text-shadow: 2px 2px pink;
+  }
+  
+  #fvnma:hover:after{
+    
+    content: "Film, Video, New Media, and Animation";
+    transition: all 0.3s;
+    font-size: 2.1vw;
+    color: pink;
+    background-color: blue;
+    text-shadow: 2px 2px black;
+    box-shadow: 5px 5px 5px black;
+  }
+  
+  #arttech:after{
+    
+    content: "ARTTECH";
+    transition: all 0.3s;
+    color: blue;
+    text-shadow: 2px 2px pink;
+  }
+  
+  #arttech:hover:after{
+    
+    content: "Art and Technology Studies";
+    transition: all 0.3s;
+    font-size: 2.1vw;
+    color: pink;
+    background-color: blue;
+    text-shadow: 2px 2px black;
+    box-shadow: 5px 5px 5px black;
+  }
+  
 
   
 </style>
@@ -135,7 +173,7 @@
       </h1>
       <p>
         My name is Jude Silvertree. I am a multidisciplinary artist based in Chicago, Illinois.
-        I am currently in my third year at the School of the Art Institute of Chicago in their FVNMA and ARTTECH programs.
+        I am currently in my third year at the School of the Art Institute of Chicago in their <span id="fvnma"></span> and <span id="arttech"></span> programs.
       </p>
     </div>
   </div>
