@@ -4,28 +4,40 @@
 display: grid;
 grid-template-columns: repeat(5, 1fr);
 grid-template-rows: repeat(4, 1fr);
-grid-column-gap: 0px;
-grid-row-gap: 0px;
+grid-column-gap: 5px;
+grid-row-gap: 5px;
+  
+  padding: 5px;
 }
 
 .div1 { 
   grid-area: 1 / 1 / 2 / 6; 
-  background: red;
+  background: white;
+  
   
   }
   
 .div2 { 
   grid-area: 2 / 1 / 5 / 3; 
-  background: green;
+  background: white;
   
   }
   
 .div3 { 
   grid-area: 2 / 3 / 5 / 6; 
-  background: blue;
+  background: white;
   
   }
 
+  nav {
+    display: flex;
+  justify-content: space-around;
+  }
+  
+  body {
+    width: 100vw;
+    background: black;
+  }
 
 
 </style>
@@ -34,7 +46,13 @@ grid-row-gap: 0px;
   
   <div class="parent">
     <div class="div1">
-      hi
+      <nav>
+        
+        <a href="#">about</a>
+        <a href="#">portfolio</a>
+        <a href="#">youTube</a>
+      
+      </nav>
     </div>
     <div class="div2">
       hi
